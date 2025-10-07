@@ -30,7 +30,7 @@ WorkPlace is a React Native app for managing workplace sessions and activities, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jitudimri/WorkPlace.git
+   git clone https://github.com/jitudimri/WorkplaceEntry.git
    cd WorkPlace
    ```
 
