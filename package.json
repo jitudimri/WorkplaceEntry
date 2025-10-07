@@ -1,18 +1,27 @@
 {
   "name": "workplace",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
+    "buildios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/netinfo": "^11.4.1",
     "expo": "~54.0.7",
+    "expo-constants": "~18.0.9",
+    "expo-linking": "~8.0.8",
+    "expo-router": "~6.0.6",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react-native": "0.81.4",
+    "react-native-permissions": "^5.4.2",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-url-polyfill": "^2.0.0"
   },
   "private": true
 }
