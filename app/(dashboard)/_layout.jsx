@@ -1,10 +1,9 @@
-import { Link, Stack, Tabs, useRouter, Redirect } from "expo-router";
-import { Button, StatusBar, useColorScheme } from "react-native";
+import { Stack, useRouter } from "expo-router";
+import { StatusBar, useColorScheme } from "react-native";
 import { Colors } from '../../constants/Colors';
 import { Ionicons } from "@expo/vector-icons";
 import UserOnly from "../../components/auth/UserOnly";
 import { useUser } from "../../hooks/useUser";
-import ThemedText from "../../components/ThemedText";
 
 const DashboardLayout = () => {
     const colorScheme = useColorScheme();

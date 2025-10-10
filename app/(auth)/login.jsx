@@ -1,7 +1,6 @@
 import ThemedView from '../../components/ThemedView';
 import ThemedText from '../../components/ThemedText';
 import Spacer from '../../components/Spacer';
-import { Link } from 'expo-router';
 import { Keyboard, Pressable, StyleSheet, Text } from 'react-native';
 import ThemedButton from '../../components/ThemedButton';
 import ThemedTextInput from '../../components/ThemedTextInput';

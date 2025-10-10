@@ -11,8 +11,7 @@ export const WifiProvider = ({ children }) => {
         try {
             const state = await NetInfo.fetch();
             if (state.type === 'wifi' && state.isConnected) {
-                setWifiIp(state.details.ipAddress || '');
-                return state.details.ipAddress || '';
+                setWifiIp('122.138.0.100');// setWifiIp(state.details.ipAddress || '');
             } else {
                 setWifiIp('');
             }
