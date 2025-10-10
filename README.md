@@ -29,17 +29,20 @@ WorkPlace is a React Native app for managing workplace sessions and activities, 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/jitudimri/WorkplaceEntry.git
    cd WorkPlace
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm start
    ```
@@ -80,6 +83,14 @@ assets/
 
 - **Android:** Location permission is required to access WiFi information.
 - **iOS:** Location permission and "Access WiFi Information" capability are required.
+
+## Description
+
+Below is the screenshot of the screen after login. The 'Start Activity' button is disabled by default, when user selects
+an activity then the actity is highlighted by dashed border and the the button is enabled. On press of 'Start Activity'
+a message is displayed below it.
+
+![alt text](./assets/app-img.png)
 
 ## License
 
